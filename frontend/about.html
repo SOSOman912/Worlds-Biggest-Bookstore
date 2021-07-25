@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/style.css">    
+    <title>World's Best Bookstore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/about">ABOUT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- about us content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's greatest bookstore</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet, purus nec ornare iaculis, nisl lacus ullamcorper quam, a feugiat sem nisi non leo. Aliquam ultrices vitae odio a tempus. Aliquam sit amet tortor finibus, lobortis libero id, lacinia magna. Nullam eget urna nisi. Pellentesque eu malesuada neque, non aliquam sem. Etiam at nibh diam. Aliquam in vulputate mauris. Sed porttitor nec est et efficitur. Etiam et imperdiet sapien. Suspendisse sapien nulla, auctor nec magna ac, rhoncus ultricies felis. Integer blandit in ligula vitae vulputate. Cras dapibus tempor ipsum, eu volutpat nulla malesuada et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                </p>
+            </div>
+            <div class="about-col">
+                <img src="images/pexels-mentatdgt-1319854.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mollis tortor sed massa ullamcorper tempus. Nam convallis ullamcorper mauris.<br> Integer pharetra tempor nulla, at venenatis augue bibendum at. Curabitur tortor ante,
+        </p>
+        <div class="icons">
+            <i class="footer-I fab fa-facebook"></i>
+            <i class="footer-I fab fa-twitter"></i>
+            <i class="footer-I fab fa-instagram"></i>
+            <i class="footer-I fab fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!--------------JavaScript for Toggle Menu ------------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function ShowMenu() {
+            console.log("hello");
+            navLinks.style.right = "0";
+        }
+
+        function HideMenu() {
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+</body>
+</html>
